@@ -41,6 +41,6 @@ const question2 = () => {
 (async()=>{
 	await question1();
 	await question2();
-	reader.close();
+	reader.close();//終了
 })()
 
